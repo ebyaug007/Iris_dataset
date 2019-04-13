@@ -24,3 +24,16 @@ print(dataset.shape)
 print(dataset.head(20))
 print(dataset.describe())
 print(dataset.groupby('class').size())
+
+#data visualization
+#univariate plots
+
+#dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+#plt.show()
+#dataset.hist()
+#plt.show()
+
+#multivariate plots
+
+scatter_matrix(dataset)
+plt.show()
