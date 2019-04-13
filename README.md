@@ -27,10 +27,12 @@ Any of the packages are missing use the below command to install the same
 
 
 While loading the packages for your project if the below error comes associated with matplotlib
+	
 	import tkinter as Tk
 	ModuleNotFoundError: No module named 'tkinter'
 
 Use the below command to install tkinter
+	
 	sudo apt-get install python3-tk
 
 Tkinter is the defacto GUI of python(For more details refer https://wiki.python.org/moin/TkInter)
